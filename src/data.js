@@ -21,27 +21,39 @@ export const NAV_LINKS = [
 export const CLASSES = [
     {
         year: 2025,
-        month: 'January',
-        classDays: '9 - 12',
-        lakeDays: 'By Referral'
-    },
-    {
-        year: 2025,
-        month: 'February',
-        classDays: '20 - 23',
-        lakeDays: 'By Referral'
-    },
-    {
-        year: 2025,
-        month: 'March',
-        classDays: '26 - 29',
-        lakeDays: 'By Referral'
-    },
-    {
-        year: 2025,
         month: 'April',
-        classDays: '25 - 28',
-        lakeDays: 'By Referral'
+        classDays: '24 - 27',
+        lakeDays: 'May 31, June 1'
+    },
+    {
+        year: 2025,
+        month: 'May',
+        classDays: '8 - 11',
+        lakeDays: 'May 31, June 1'
+    },
+    {
+        year: 2025,
+        month: 'June',
+        classDays: '19 - 22',
+        lakeDays: '28, 29'
+    },
+    {
+        year: 2025,
+        month: 'July',
+        classDays: '10 - 13',
+        lakeDays: '26, 27'
+    },
+    {
+        year: 2025,
+        month: 'July',
+        classDays: '17 - 20',
+        lakeDays: '26, 27'
+    },
+    {
+        year: 2025,
+        month: 'August',
+        classDays: '7 - 10',
+        lakeDays: '16, 17'
     }
 ];
 

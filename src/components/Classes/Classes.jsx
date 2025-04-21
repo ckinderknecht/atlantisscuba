@@ -98,8 +98,8 @@ For the Open Water portion, we’re not married to a single locale….we do what
                             {/* <span className="year">2024</span> */}
                             {/* <span className="month">December</span> */}
                             
-                            <span className="local">Equipment</span>
-                            <span className="dates">Dec. 10, 12, 17</span>
+                            {/* <span className="local">Equipment</span>
+                            <span className="dates">Dec. 10, 12, 17</span> */}
                             <span className="local">Refresher</span>
                             <span className="dates">Upon Request</span>
                             {/* <span className="local">U/W Navigation</span>
