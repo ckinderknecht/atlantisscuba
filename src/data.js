@@ -21,55 +21,38 @@ export const NAV_LINKS = [
 export const CLASSES = [
     {
         year: 2025,
-        month: 'April',
-        classDays: '24 - 27',
-        lakeDays: 'May 31, June 1'
-    },
-    {
-        year: 2025,
-        month: 'May',
-        classDays: '8 - 11',
-        lakeDays: 'May 31, June 1'
-    },
-    {
-        year: 2025,
-        month: 'June',
-        classDays: '19 - 22',
-        lakeDays: '28, 29'
-    },
-    {
-        year: 2025,
-        month: 'July',
-        classDays: '10 - 13',
-        lakeDays: '26, 27'
-    },
-    {
-        year: 2025,
-        month: 'July',
-        classDays: '17 - 20',
-        lakeDays: '26, 27'
-    },
-    {
-        year: 2025,
         month: 'August',
         classDays: '7 - 10',
         lakeDays: '16, 17'
+    },
+    {
+        year: 2025,
+        month: 'September',
+        classDays: '18 - 21',
+        lakeDays: '27, 28'
+    },
+    {
+        year: 2025,
+        month: 'October',
+        classDays: '18 - 21',
+        lakeDays: '27, 28'
+    },
+    {
+        year: 2025,
+        month: 'November',
+        classDays: '6 - 9',
+        lakeDays: 'By Referral'
+    },
+    {
+        year: 2025,
+        month: 'December',
+        classDays: '4 - 7',
+        lakeDays: 'By Referral'
     }
 ];
 
 export const TRAVEL_DATES = [
-    {
-        location:'BVI Sail & Dive',
-        dates:'March 2 - 9',
-        price:'$2750 ppdo + Air',
-        soldOut: false
-    },
-    {
-        location:'BVI Sail & Dive',
-        dates:'June 3 - 10',
-        price:'$3399 ppdo + Air',
-        soldOut: true
-    },
+    
     {
         location:'Cozumel',
         dates:'August 1 - 4',
@@ -84,8 +67,14 @@ export const TRAVEL_DATES = [
     },
     {
         location:'Galapagos',
-        dates:'January 5 - 12',
+        dates:'January 2026 5 - 12',
         price:'$7250 ppdo + Air',
+        soldOut: false
+    },
+    {
+        location:'Bora Bora Sail and Dive',
+        dates:'June 2026 20 - 27',
+        price:'$3999',
         soldOut: false
     }
 ];
