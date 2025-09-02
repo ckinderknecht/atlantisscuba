@@ -34,7 +34,7 @@ export const CLASSES = [
     {
         year: 2025,
         month: 'October',
-        classDays: '18 - 21',
+        classDays: '16 - 19',
         lakeDays: '27, 28'
     },
     {
@@ -72,9 +72,21 @@ export const TRAVEL_DATES = [
         soldOut: false
     },
     {
-        location:'Bora Bora Sail and Dive',
+        location:'BVI Sail & Dive',
+        dates:'May 2026 24 - 31',
+        price:'$2999 ppdo',
+        soldOut: false
+    },
+    {
+        location:'Tahiti Sail & Dive',
+        dates:'June 2026 17 - 27',
+        price:'$3999 ppdo',
+        soldOut: false
+    },
+    {
+        location:'Bora Bora Sail & Dive',
         dates:'June 2026 20 - 27',
-        price:'$3999',
+        price:'$3999 ppdo',
         soldOut: false
     }
 ];
