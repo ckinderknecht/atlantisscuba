@@ -20,73 +20,60 @@ export const NAV_LINKS = [
 
 export const CLASSES = [
     {
-        year: 2025,
-        month: 'August',
+        year: 2026,
+        month: 'January',
+        classDays: '22 - 25',
+        lakeDays: 'By Referral'
+    },
+    {
+        year: 2026,
+        month: 'February',
+        classDays: '19 - 22',
+        lakeDays: 'By Referral'
+    },
+    {
+        year: 2026,
+        month: 'March',
+        classDays: '5 - 8',
+        lakeDays: 'By Referral'
+    },
+    {
+        year: 2026,
+        month: 'April',
+        classDays: '9 - 12',
+        lakeDays: 'June 13, 14'
+    },
+    {
+        year: 2026,
+        month: 'May',
         classDays: '7 - 10',
-        lakeDays: '16, 17'
+        lakeDays: 'June 13, 14'
     },
     {
-        year: 2025,
-        month: 'September',
-        classDays: '18 - 21',
-        lakeDays: '27, 28'
-    },
-    {
-        year: 2025,
-        month: 'October',
-        classDays: '16 - 19',
-        lakeDays: '27, 28'
-    },
-    {
-        year: 2025,
-        month: 'November',
-        classDays: '6 - 9',
-        lakeDays: 'By Referral'
-    },
-    {
-        year: 2025,
-        month: 'December',
+        year: 2026,
+        month: 'June',
         classDays: '4 - 7',
-        lakeDays: 'By Referral'
+        lakeDays: 'June 13, 14'
     }
 ];
 
 export const TRAVEL_DATES = [
-    
-    {
-        location:'Cozumel',
-        dates:'August 1 - 4',
-        price:'$1299 ppdo + Air',
-        soldOut: false
-    },
-    {
-        location:'Fiji',
-        dates:'October 4 - 11',
-        price:'$2799 ppdo + Air',
-        soldOut: false
-    },
     {
         location:'Galapagos',
-        dates:'January 2026 5 - 12',
+        dates:'January 5 - 12',
         price:'$7250 ppdo + Air',
         soldOut: false
     },
     {
         location:'BVI Sail & Dive',
-        dates:'May 2026 24 - 31',
-        price:'$2999 ppdo',
+        dates:'May 24 - 31',
+        price:'$3999 ppdo',
         soldOut: false
     },
     {
         location:'Tahiti Sail & Dive',
-        dates:'June 2026 17 - 27',
-        price:'$3999 ppdo',
-        soldOut: false
-    },
-    {
-        location:'Bora Bora Sail & Dive',
-        dates:'June 2026 20 - 27',
-        price:'$3999 ppdo',
+        dates:'June 17 - 27',
+        price:'$5999 ppdo',
         soldOut: false
     }
 ];
