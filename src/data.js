@@ -28,19 +28,19 @@ export const CLASSES = [
     {
         year: 2026,
         month: 'February',
-        classDays: '19 - 22',
+        classDays: '12 - 15',
         lakeDays: 'By Referral'
     },
     {
         year: 2026,
         month: 'March',
-        classDays: '5 - 8',
+        classDays: '26 - 29',
         lakeDays: 'By Referral'
     },
     {
         year: 2026,
         month: 'April',
-        classDays: '9 - 12',
+        classDays: '23 - 26',
         lakeDays: 'June 13, 14'
     },
     {
