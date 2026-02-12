@@ -59,21 +59,27 @@ export const CLASSES = [
 
 export const TRAVEL_DATES = [
     {
-        location:'Galapagos',
-        dates:'January 5 - 12',
-        price:'$7250 ppdo + Air',
-        soldOut: false
-    },
-    {
         location:'BVI Sail & Dive',
         dates:'May 24 - 31',
-        price:'$3999 ppdo',
+        price:'$2999 + Air - ppdo',
         soldOut: false
     },
     {
-        location:'Tahiti Sail & Dive',
+        location:'Bora Bora Sail & Dive',
         dates:'June 17 - 27',
-        price:'$5999 ppdo',
+        price:'$6499 + Air ppdo',
+        soldOut: false
+    },
+    {
+        location:'Cozumel Diving & Leadership',
+        dates:'Aug 7 - 10',
+        price:'$549 + Air & Ground',
+        soldOut: false
+    },
+    {
+        location:'Sea of Cortez Sail & Dive',
+        dates:'Sept 1 - 8',
+        price:'$2999 + Air ppdo',
         soldOut: false
     }
 ];
