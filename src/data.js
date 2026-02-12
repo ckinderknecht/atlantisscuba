@@ -61,13 +61,13 @@ export const TRAVEL_DATES = [
     {
         location:'BVI Sail & Dive',
         dates:'May 24 - 31',
-        price:'$2999 + Air - ppdo',
+        price:'$2999 + Air / ppdo',
         soldOut: false
     },
     {
         location:'Bora Bora Sail & Dive',
         dates:'June 17 - 27',
-        price:'$6499 + Air ppdo',
+        price:'$6499 + Air / ppdo',
         soldOut: false
     },
     {
@@ -79,7 +79,7 @@ export const TRAVEL_DATES = [
     {
         location:'Sea of Cortez Sail & Dive',
         dates:'Sept 1 - 8',
-        price:'$2999 + Air ppdo',
+        price:'$2999 + Air / ppdo',
         soldOut: false
     }
 ];
