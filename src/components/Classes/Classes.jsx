@@ -54,7 +54,7 @@ For the Open Water portion, we’re not married to a single locale….we do what
                     <div className="aowCards">
                         <span className="aowTitle">PADI<br/>Rescue<br/></span>
                         <div className="details">
-                            <span className="year">2024</span>
+                            <span className="year">2026</span>
                             <span className="month">September</span>
                             
                             <span className="local">Class/Pool</span>
