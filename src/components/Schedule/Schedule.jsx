@@ -16,21 +16,21 @@ export default function Schedule() {
                         <h3>Week 1</h3><span className="hLine"></span>
                     </div>
                     <div className="weekDays">
-                        <h4>Thursday</h4>
+                        <h4>Thu</h4>
                         <p>7pm - 10pm<br/>@ Shop</p>
                     </div>
                     <div className="weekDays">
-                        <h4>Friday</h4>
-                        <p>6pm - 8pm<br/> @ Pool</p>
+                        <h4>Fri</h4>
+                        <p>6:30pm - 8:30pm<br/> @ Pool</p>
                     </div>
                     <div className="weekDays">
-                        <h4>Saturday</h4>
-                        <p>9am - 1pm<br/>@ Pool</p>
+                        <h4>Sat</h4>
+                        <p>9am - 12pm<br/>@ Pool</p>
                         {/* <p>1:30pm - 3:30pm<br>@ Shop</p> */}
                     </div>
                     <div className="weekDays">
-                        <h4>Sunday</h4>
-                        <p>1pm - 5:30pm<br/>@ Pool</p>
+                        <h4>Sun</h4>
+                        <p>1pm - 4:30pm<br/>@ Pool</p>
                     </div>
                     
                 </div>
@@ -40,11 +40,11 @@ export default function Schedule() {
                         <h3>Week 2</h3><span className="hLine"></span>
                     </div>
                     <div className="weekDays">
-                        <h4>Saturday</h4>
+                        <h4>Sat</h4>
                         <p>TBD<br/>Open Water</p>
                     </div>
                     <div className="weekDays">
-                        <h4>Sunday</h4>
+                        <h4>Sun</h4>
                         <p>TBD<br/>Open Water</p>
                     </div>
                 </div>

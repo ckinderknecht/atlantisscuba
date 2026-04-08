@@ -28,47 +28,19 @@ For the Open Water portion, we’re not married to a single locale….we do what
                 <h3>Advanced Open Water</h3>
                 <p className="headlineDescription">PADI NITROX Certification, PADI Rescue, useful PADI Specialties such as Navigation, Equipment, Digital U/W Photo, Peak Performance Buoyancy, as well as PADI Divemaster.</p>
                 <div className="classContainer">
-                    {/* <div className="aowCards">
-                        <span className="aowTitle">Advanced<br /> 
-                        Open Water</span>
-                        <span className="aowMonth">July</span>
-                        <div className="owDivide"></div>
-                        <span className="aowLocal">Class/Pool</span>
-                        <span className="aowDates">18, 23</span>
-                        <span className="aowLocal">Check Out</span>
-                        <span className="aowDates">27, 28</span>
-                    </div>
+                    
                     <div className="aowCards">
-                        <span className="aowTitle">PADI Navigation<br />
-                            Specialty</span>
-                        <span className="aowMonth">October</span>
-                        <div className="owDivide"></div>
-                        <span className="aowLocal">Class/Pool</span>
-                        <span className="aowDates">5</span>
-                        <span className="aowLocal">Check Out</span>
-                        <span className="aowDates">9</span>
-                    </div><div className="aowCards">
-                        <span className="aowTitle">PADI<br />
-                            Rescue</span>
-                        <span className="aowMonth">October</span>
-                        <div className="owDivide"></div>
-                        <span className="aowLocal">Class/Pool</span>
-                        <span className="aowDates">11, 13</span>
-                        <span className="aowLocal">Check Out</span>
-                        <span className="aowDates">29, 30</span>
-                    </div> */}
-                    {/* <div className="aowCards">
                         <span className="aowTitle">Advanced<br/>Open Water</span>
                         <div className="details">
-                            <span className="year">2024</span>
-                            <span className="month">August</span>
+                            <span className="year">2026</span>
+                            <span className="month">September</span>
                             
                             <span className="local">Class/Pool</span>
-                            <span className="dates">21</span>
+                            <span className="dates">16</span>
                             <span className="local">Check out</span>
-                            <span className="dates">Aug 31, Sep 1</span>
+                            <span className="dates">26, 27</span>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="aowCards">
                         <span className="aowTitle">PADI<br />
                                 NITROX</span>
@@ -79,31 +51,31 @@ For the Open Water portion, we’re not married to a single locale….we do what
 
                         </div>
                     </div>
-                    {/* <div className="aowCards">
+                    <div className="aowCards">
                         <span className="aowTitle">PADI<br/>Rescue<br/></span>
                         <div className="details">
                             <span className="year">2024</span>
                             <span className="month">September</span>
                             
                             <span className="local">Class/Pool</span>
-                            <span className="dates">sep 24, 26, Oct 3</span>
+                            <span className="dates">Sep 29, Oct 4</span>
                             <span className="local">Check out</span>
-                            <span className="dates">Oct 5, 6</span>
+                            <span className="dates">Oct 10, 11</span>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="aowCards">
                         <span className="aowTitle">PADI<br />
                                 Specialties</span>
                         <div className="details">
-                            {/* <span className="year">2024</span> */}
+                            <span className="year">2026</span>
                             {/* <span className="month">December</span> */}
                             
-                            {/* <span className="local">Equipment</span>
-                            <span className="dates">Dec. 10, 12, 17</span> */}
+                            <span className="local">Equipment</span>
+                            <span className="dates">Dec. 10, 12, 17</span>
                             <span className="local">Refresher</span>
                             <span className="dates">Upon Request</span>
-                            {/* <span className="local">U/W Navigation</span>
-                            <span className="dates">Class: Sep 14,<br/>Check: Sep 22</span> */}
+                            <span className="local">U/W Navigation</span>
+                            <span className="dates">Class: Sep 23,<br/>Check: Sep 27</span>
                         </div>
                     </div>
                     {/* <div className="aowCards">
