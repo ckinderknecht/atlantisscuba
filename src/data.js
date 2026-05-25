@@ -5,6 +5,10 @@ export const NAV_LINKS = [
       url: '#instructions',
     },
     {
+    copy: 'Prices',
+    url: '#prices',
+    },
+    {
     copy: 'Classes',
     url: '#classes',
     },
@@ -19,18 +23,7 @@ export const NAV_LINKS = [
   ];
 
 export const CLASSES = [
-    {
-        year: 2026,
-        month: 'April',
-        classDays: '23 - 26',
-        lakeDays: 'June 13, 14'
-    },
-    {
-        year: 2026,
-        month: 'May',
-        classDays: '7 - 10',
-        lakeDays: 'June 13, 14'
-    },
+    
     {
         year: 2026,
         month: 'June',
@@ -42,6 +35,12 @@ export const CLASSES = [
         month: 'July',
         classDays: '9 - 12',
         lakeDays: '18, 19'
+    },
+    {
+        year: 2026,
+        month: 'July',
+        classDays: '23 - 26',
+        lakeDays: 'Aug. 1, 2'
     },
     {
         year: 2026,

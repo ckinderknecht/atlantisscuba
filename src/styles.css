@@ -44,7 +44,8 @@ h1 {
 h1 span {
   font-size: 1.6rem;
   line-height: 1.6rem;
-  font-weight: 100;
+  font-weight: 400;
+  color: #FF9400;
   margin: 0;
   text-transform: uppercase;
 }
@@ -83,6 +84,8 @@ h2 {
   line-height: 5.5rem;
   font-weight: 900;
   text-transform: uppercase;
+  position: relative;
+  z-index: 2;
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -320,6 +323,7 @@ section.waterLine img {
 
 .headlineDescription {
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .btnOrange {

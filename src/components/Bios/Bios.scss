@@ -1,0 +1,155 @@
+@use '../../variables' as *;
+
+#bios {
+  padding: 5rem 1.5rem 4rem;
+  background-color: $waterBlue;
+  position:relative;
+  z-index: 2;
+
+@media only screen and (max-width:767px) {
+    padding: 2rem 1rem;
+    
+}
+  .bios-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-bottom: 2.5rem;
+    @media only screen and (max-width:767px) {
+        margin-bottom: 2rem;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .bios-header::before {
+    content: 'INSTRUCTORS';
+    top: -37%;
+    left: 50%;
+    transform:translateX(-50%);
+    position: absolute;
+    color: $waterBlue;
+    font-family: 'Anton', sans-serif;
+    font-size: 15rem;
+    line-height: 1;
+    opacity: .2;
+    text-shadow:
+    -1px -1px 0 $lightColor,  
+    1px -1px 0 $lightColor,
+    -1px 1px 0 $lightColor,
+    1px 1px 0 $lightColor;
+    z-index: -1;
+    @media only screen and (max-width:767px) {
+        font-size: 7rem;
+        top:12px;
+    }
+    @media only screen and (max-width:467px) {
+        font-size: 4rem;
+        top:0;
+    }
+  }
+  @media (max-width: 980px) {
+    h2::before {
+      font-size: 8rem;
+      top: -32px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    h2::before {
+      font-size: 5.5rem;
+      top: -18px;
+      left: 0;
+    }
+  }
+
+  .bios-carousel {
+    --card-width: min(1332px, 100%);
+    padding-bottom: 1rem;
+    width: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+
+  .bios-track {
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    cursor: grab;
+    user-select: none;
+  }
+
+  .bios-track.dragging {
+    cursor: grabbing;
+  }
+
+  .bio-card {
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 1332px;
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    align-items: center;
+    background: rgba($darkestBlue, 0.75);
+    border: 1px solid rgba($darkestBlue, 0.24);
+    border-radius: 32px;
+    padding: 48px;
+     @media (max-width: 780px) {
+      flex-direction: column;
+      padding: 24px;
+  }
+  }
+  .bio-image {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .bio-image img {
+    width: 100%;
+    display: block;
+  }
+
+  .bio-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .bio-copy h3 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .bio-copy p {
+    margin: 0;
+  }
+
+  .bios-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 2rem;
+  }
+
+  .dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid $lightColor;
+    background: transparent;
+    transition: background 0.25s ease, transform 0.25s ease;
+    cursor: pointer;
+  }
+
+  .dot.active {
+    background: $lightColor;
+  }
+
+}
+

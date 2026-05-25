@@ -1,4 +1,4 @@
-@import './../../variables';
+@use './../../variables' as *;
 
 section#travel {
     position: relative;
@@ -66,6 +66,14 @@ section#travel {
                 transform: $rotateRight;
             }
         }
+    }
+    .comingUp {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1em;
+    }
+    .emphasis {
+        font-weight: 800;
     }
     .trips {
         width: 60%;

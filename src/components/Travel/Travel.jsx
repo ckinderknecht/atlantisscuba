@@ -41,7 +41,8 @@ const Travel = () => {
                 <h2>Travel&nbsp;and Adventure</h2>
                 <div className="head-line"></div>
                 {!isMobile && <img className="mobileShow" src={sunset}/>}
-                <p>Having been in business for a bit (1996) and done quite a few trips, our dive destinations are somewhat reactive in nature these days. You tell me where you'd like to go, we build interest, get people together and put the trip together! So let me know what tickles your fancy! Pick up the phone, give us a call at <a className="phoneN" href="tel:8173682755">817&#8209;368&#8209;2755</a>.</p>
+                <p><span className="emphasis">We travel a LOT!</span> Having been in business for a bit (1996) and done quite a few trips, our dive destinations are somewhat reactive in nature these days. You tell me where you'd like to go, we build interest, get people together and put the trip together! So let me know what tickles your fancy! Pick up the phone, give us a call at <a className="phoneN" href="tel:8173682755">817&#8209;368&#8209;2755</a>.</p>
+                <p className="comingUp">Here are some great trips coming up!</p>
                 {!isMobile && <><img className="mobileShow mSmall" src={divers} alt="Scuba Divers Ready"/>
                 <img className="mobileShow mSmall" src={ship} alt="Underwater Scuba Ship"/>
                 </>}

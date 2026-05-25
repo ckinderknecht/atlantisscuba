@@ -335,59 +335,5 @@ section#instructions .inst-btm .halfRB .learnMore {
     margin-top: 5rem;
   }
 }
-section#instructions .facts {
-  margin-top: 84px;
-}
-section#instructions .facts .factsContainer {
-  display: flex;
-  gap: 48px;
-}
-@media only screen and (max-width: 767px) {
-  section#instructions .facts .factsContainer {
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-}
-@media only screen and (max-width: 567px) {
-  section#instructions .facts .factsContainer {
-    padding-top: 24px;
-  }
-}
-section#instructions .facts .factsContainer .fact {
-  width: calc(25% - 36px);
-}
-section#instructions .facts .factsContainer .fact .icon {
-  width: 68px;
-  margin-bottom: 24px;
-}
-section#instructions .facts .factsContainer .fact .icon svg {
-  width: 100%;
-  display: block;
-  height: auto;
-  border: 3px solid #FF9400;
-  border-radius: 50px;
-  padding: 10px;
-  overflow: visible;
-  box-sizing: border-box;
-}
-@media only screen and (max-width: 767px) {
-  section#instructions .facts .factsContainer .fact .icon svg {
-    padding: 4px;
-    border: 2px solid #FF9400;
-  }
-}
-@media only screen and (max-width: 767px) {
-  section#instructions .facts .factsContainer .fact .icon {
-    width: 60px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  section#instructions .facts .factsContainer .fact {
-    width: calc(50% - 12px);
-  }
-}
-section#instructions .facts .factsContainer .fact h6 {
-  margin-bottom: 12px;
-}
 
 /*# sourceMappingURL=Instruction.css.map */

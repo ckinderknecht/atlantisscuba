@@ -1,0 +1,97 @@
+@use '../../variables' as *;
+
+ .whyTrain {
+        position:relative;
+        background-color: $darkSection;
+        position: relative;
+         .container:before {
+            content: "TRAINING";
+           top: -69px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            color: $darkSection;
+            font-family: 'Anton', sans-serif;
+            font-size: 15rem;
+            line-height: 1;
+            opacity: .2;
+            text-shadow:
+            -1px -1px 0 $lightColor,  
+            1px -1px 0 $lightColor,
+            -1px 1px 0 $lightColor,
+            1px 1px 0 $lightColor;
+            @media only screen and (max-width:767px) {
+                font-size: 7rem;
+                top:12px;
+            }
+            @media only screen and (max-width:467px) {
+                font-size: 4rem;
+                top:-26px;
+                left: 50%;
+            }
+        }
+        h2 {
+          text-align: center;
+        }
+        .factsContainer {
+            display:flex;
+            flex-wrap: wrap;
+            gap:48px;
+            position: relative;
+            z-index:2;
+            @media only screen and (max-width:767px) {
+                gap:24px;
+                flex-wrap: wrap;
+            }
+            @media only screen and (max-width:567px) {
+                padding-top: 24px;
+            }
+            .fact {
+                width: calc(25% - 36px);
+                background-color: rgba($darkestBlue, 0.8);
+                padding:24px;
+                border-radius: $borderRadius;
+                box-sizing: border-box;
+                &:nth-of-type(1) {
+                    width:calc(70% - 24px)
+                }
+                &:nth-of-type(2) {
+                    width:calc(30% - 24px)
+                }
+                &:nth-of-type(3) {
+                    width:calc(40% - 24px)
+                }
+                &:nth-of-type(4) {
+                    width:calc(60% - 24px)
+                }
+                .icon {
+                    width: 68px;
+                    margin-bottom: 24px;
+                    svg {
+                        width: 100%;
+                        display:block;
+                        height: auto;
+                        border: 3px solid #FF9400;
+                        border-radius: 50px;
+                        padding: 10px;
+                        overflow: visible;
+                        box-sizing: border-box;
+                        @media only screen and (max-width:767px) {
+                            padding:4px;
+                            border: 2px solid #FF9400;
+                        }
+                    }
+                    
+                    @media only screen and (max-width:767px) {
+                        width:60px;    
+                    }
+                }
+                @media only screen and (max-width:767px) {
+                    width:100% !important;
+                }
+                h6 {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }

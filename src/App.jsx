@@ -7,6 +7,9 @@ import Schedule from './components/Schedule/Schedule';
 import Rentals from './components/Rentals/Rentals';
 import Travel from './components/Travel/Travel';
 import Footer from './components/Footer/Footer';
+import Faqs from './components/Faqs/Faqs';
+import WhyTrain from './components/WhyTrain/WhyTrain';
+import Bios from './components/Bios/Bios';
 
 function App() {
 
@@ -20,10 +23,13 @@ function App() {
           <img src={waterLongImg} alt="Background" />
       </section>
       <Instruction />
+      <WhyTrain />
+      <Bios />
       <Classes />
       <Schedule />
       <Rentals />
       <Travel />
+      <Faqs/>
       <Footer />
     </div>
   )

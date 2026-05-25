@@ -68,6 +68,14 @@ section#travel .travelImgs img:nth-child(1), section#travel .travelImgs img:nth-
 section#travel .travelImgs img:nth-child(2) {
   transform: rotate(-3deg);
 }
+section#travel .comingUp {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1em;
+}
+section#travel .emphasis {
+  font-weight: 800;
+}
 section#travel .trips {
   width: 60%;
 }

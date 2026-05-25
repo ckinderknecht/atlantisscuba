@@ -1,0 +1,114 @@
+@use '../../variables' as *;
+
+#prices {
+    padding:0;
+.prices-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding:0;
+    @media only screen and (max-width:776px) {
+        h3 {
+            margin: 0;
+        }
+  }
+    
+  }
+
+  .centerOther {
+    text-align: center;
+  }
+  .price-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .price-card {
+    background: rgba($superDarkBlue, 0.7);
+    backdrop-filter: blur(6px);
+    border: 2px solid $accent;
+    border-radius: 24px;
+    padding: 2.25rem;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+    .price-desc {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+  }
+
+  .price-label {
+    display: inline-flex;
+    color: $lightColor;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  .price-value {
+    margin: 0;
+    font-size: clamp(3.5rem, 4vw, 4.5rem);
+    line-height: 0.95;
+    font-weight: 800;
+    color: $accent;
+  }
+
+  .price-tagline {
+    margin: 0;
+    color: $lightColor;
+    font-size: 1rem;
+  }
+
+  .price-copy {
+    text-align: left;
+
+    .price-copy-title {
+      font-weight: 700;
+      color: $accent;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.15rem;
+      color: $lightColor;
+      list-style-type: disc;
+      line-height: 1.5;
+    }
+
+    .price-copy-note {
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 980px) {
+    .price-grid {
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+    }
+  }
+
+  @media (max-width: 700px) {
+    padding: 0 1rem 3rem;
+
+    .price-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .prices-inner {
+      gap: 2rem;
+    }
+
+    .price-card {
+      padding: 1.75rem;
+    }
+  }
+}

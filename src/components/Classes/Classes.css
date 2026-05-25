@@ -1,21 +1,17 @@
 section#classes {
-  background-image: url("images/turtle.png");
-  background-position: center 50px;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background: radial-gradient(#1F6795, #084c77);
+  background: url("/turtle.png") center 450px/150% no-repeat, radial-gradient(#1F6795, #084c77);
   position: relative;
   z-index: 1;
 }
 @media only screen and (max-width: 767px) {
   section#classes {
-    background-size: 110%;
+    background: url("/turtle.png") center 250px/110% no-repeat, radial-gradient(#1F6795, #084c77);
   }
 }
-section#classes .container {
+section#classes > .container {
   z-index: 2;
 }
-section#classes .container:before {
+section#classes > .container:before {
   content: "CLASSES";
   top: -50px;
   left: 50%;
@@ -30,37 +26,37 @@ section#classes .container:before {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 @media only screen and (max-width: 1240px) {
-  section#classes .container:before {
+  section#classes > .container:before {
     font-size: 11rem;
   }
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container:before {
+  section#classes > .container:before {
     font-size: 7rem;
     top: -27px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container:before {
+  section#classes > .container:before {
     font-size: 4rem;
     top: -14px;
   }
 }
-section#classes .container .classContainer {
+section#classes > .container .classContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   margin-bottom: 60px;
 }
-section#classes .container .classContainer .owCards, section#classes .container .classContainer .aowCards {
+section#classes > .container .classContainer .owCards, section#classes > .container .classContainer .aowCards {
   border-radius: 24px;
   text-transform: uppercase;
 }
-section#classes .container .classContainer .owCards span, section#classes .container .classContainer .aowCards span {
+section#classes > .container .classContainer .owCards span, section#classes > .container .classContainer .aowCards span {
   display: block;
 }
-section#classes .container .classContainer .owCards, section#classes .container .classContainer .aowCards {
+section#classes > .container .classContainer .owCards, section#classes > .container .classContainer .aowCards {
   padding: 28px;
   background-color: #003F67;
   vertical-align: top;
@@ -69,53 +65,53 @@ section#classes .container .classContainer .owCards, section#classes .container 
   color: #ffffff;
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container .classContainer .owCards, section#classes .container .classContainer .aowCards {
+  section#classes > .container .classContainer .owCards, section#classes > .container .classContainer .aowCards {
     min-width: 200px;
     padding: 24px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container .classContainer .owCards, section#classes .container .classContainer .aowCards {
+  section#classes > .container .classContainer .owCards, section#classes > .container .classContainer .aowCards {
     min-width: auto;
     width: calc(50% - 12px);
     padding: 20px;
   }
 }
-section#classes .container .classContainer .owCards .year, section#classes .container .classContainer .aowCards .year {
+section#classes > .container .classContainer .owCards .year, section#classes > .container .classContainer .aowCards .year {
   line-height: 12px;
   font-weight: 600;
 }
-section#classes .container .classContainer .owCards .local, section#classes .container .classContainer .aowCards .local {
+section#classes > .container .classContainer .owCards .local, section#classes > .container .classContainer .aowCards .local {
   font-weight: 600;
   margin: 8px auto 0;
   color: #FF9400;
 }
-section#classes .container .classContainer .owCards .month, section#classes .container .classContainer .aowCards .month {
+section#classes > .container .classContainer .owCards .month, section#classes > .container .classContainer .aowCards .month {
   font-weight: 400;
   font-size: 2rem;
   margin-bottom: 28px;
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container .classContainer .owCards .month, section#classes .container .classContainer .aowCards .month {
+  section#classes > .container .classContainer .owCards .month, section#classes > .container .classContainer .aowCards .month {
     font-size: 1.8rem;
     margin-bottom: 24px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container .classContainer .owCards .month, section#classes .container .classContainer .aowCards .month {
+  section#classes > .container .classContainer .owCards .month, section#classes > .container .classContainer .aowCards .month {
     font-size: 1.6rem;
     margin-bottom: 18px;
   }
 }
-section#classes .container .classContainer .owCards .dates, section#classes .container .classContainer .aowCards .dates {
+section#classes > .container .classContainer .owCards .dates, section#classes > .container .classContainer .aowCards .dates {
   margin: 0;
 }
-section#classes .container .classContainer .owCards .dates span, section#classes .container .classContainer .aowCards .dates span {
+section#classes > .container .classContainer .owCards .dates span, section#classes > .container .classContainer .aowCards .dates span {
   font-size: 1rem;
   color: #b9b9b9;
   display: inline-block;
 }
-section#classes .container .classContainer .owCards .aowTitle, section#classes .container .classContainer .aowCards .aowTitle {
+section#classes > .container .classContainer .owCards .aowTitle, section#classes > .container .classContainer .aowCards .aowTitle {
   color: #FF9400;
   width: 100%;
   background-color: #002B47;
@@ -129,20 +125,20 @@ section#classes .container .classContainer .owCards .aowTitle, section#classes .
   line-height: 1.75rem;
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container .classContainer .owCards .aowTitle, section#classes .container .classContainer .aowCards .aowTitle {
+  section#classes > .container .classContainer .owCards .aowTitle, section#classes > .container .classContainer .aowCards .aowTitle {
     font-size: 1.55rem;
     line-height: 1.55rem;
     padding: 24px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container .classContainer .owCards .aowTitle, section#classes .container .classContainer .aowCards .aowTitle {
+  section#classes > .container .classContainer .owCards .aowTitle, section#classes > .container .classContainer .aowCards .aowTitle {
     font-size: 1.35rem;
     line-height: 1.35rem;
     padding: 20px;
   }
 }
-section#classes .container .classContainer .owCards .aowOther, section#classes .container .classContainer .aowCards .aowOther {
+section#classes > .container .classContainer .owCards .aowOther, section#classes > .container .classContainer .aowCards .aowOther {
   color: #ffffff;
   text-transform: none;
   padding: 5px;
@@ -153,35 +149,35 @@ section#classes .container .classContainer .owCards .aowOther, section#classes .
   margin-top: -5px;
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container .classContainer .owCards .aowOther, section#classes .container .classContainer .aowCards .aowOther {
+  section#classes > .container .classContainer .owCards .aowOther, section#classes > .container .classContainer .aowCards .aowOther {
     max-width: 152px;
     font-size: 1.3rem;
     margin-top: -4px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container .classContainer .owCards .aowOther, section#classes .container .classContainer .aowCards .aowOther {
+  section#classes > .container .classContainer .owCards .aowOther, section#classes > .container .classContainer .aowCards .aowOther {
     max-width: 135px;
     font-size: 1.1rem;
     margin-top: -3px;
   }
 }
-section#classes .container .classContainer .owCards .aowOther a, section#classes .container .classContainer .aowCards .aowOther a {
+section#classes > .container .classContainer .owCards .aowOther a, section#classes > .container .classContainer .aowCards .aowOther a {
   color: #ffffff;
 }
-section#classes .container .classContainer .aowCards {
+section#classes > .container .classContainer .aowCards {
   padding: 0;
 }
-section#classes .container .classContainer .aowCards .details {
+section#classes > .container .classContainer .aowCards .details {
   padding: 28px;
 }
 @media only screen and (max-width: 767px) {
-  section#classes .container .classContainer .aowCards .details {
+  section#classes > .container .classContainer .aowCards .details {
     padding: 24px;
   }
 }
 @media only screen and (max-width: 467px) {
-  section#classes .container .classContainer .aowCards .details {
+  section#classes > .container .classContainer .aowCards .details {
     padding: 20px;
   }
 }
@@ -197,6 +193,26 @@ section#classes .schP h4 {
 }
 section#classes h2 {
   text-align: center;
+}
+
+.belowPriceText {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.motto {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .motto {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=Classes.css.map */

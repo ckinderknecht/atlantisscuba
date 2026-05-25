@@ -1,4 +1,5 @@
 import { CLASSES } from "../../data";
+import Prices from "../Prices/Prices";
 import './Classes.css';
 
 export default function Classes () {
@@ -8,10 +9,13 @@ export default function Classes () {
                 <h2>Upcoming Classes</h2>
                 <div className="head-line centerHL"></div>
                 <div className="openWater">
-                    <h3>Open Water</h3>
                     <p className="headlineDescription">We use the PADI Open Water Manual; it’s yours to keep! The eLearning is also available at extra cost if you absolutely do not learn well reading, but reading the manual is generally superior, we have found. We also supply a loaner DVD to supplement “visual learning” the manual. Additionally, hands on the gear time is offered and recommended prior to starting the course.
         <br /> <br />
 For the Open Water portion, we’re not married to a single locale….we do what is best for our students! Depending on the time of year, this could be Clear Springs Scuba Park, Athens Scuba Park, Lake Murray or abroad by referral.</p>
+                    <Prices />
+                    <p className="belowPriceText">Remember! If you need personal gear, and most of you do, you get $50 back from the course fee that you may apply to the purchase of that equipment! It's a win win, you get great gear and a well paced class at a great price.</p>
+                    <p className="motto">Our motto is “Make it safe, and make it fun. In that order!”</p>
+                      <h3>Open Water</h3>
                     <div className="classContainer">
                     {CLASSES.map((single) => <div key={single.month + single.classDays}className="owCards">
                         <span className="year">{single.year}</span>
@@ -33,12 +37,60 @@ For the Open Water portion, we’re not married to a single locale….we do what
                         <span className="aowTitle">Advanced<br/>Open Water</span>
                         <div className="details">
                             <span className="year">2026</span>
+                            <span className="month">June</span>
+                            
+                            <span className="local">Class/Pool</span>
+                            <span className="dates">10</span>
+                            <span className="local">Check out</span>
+                            <span className="dates">13, 14</span>
+                        </div>
+                    </div>
+                    <div className="aowCards">
+                        <span className="aowTitle">Advanced<br/>Open Water</span>
+                        <div className="details">
+                            <span className="year">2026</span>
+                            <span className="month">July</span>
+                            
+                            <span className="local">Class/Pool</span>
+                            <span className="dates">15</span>
+                            <span className="local">Check out</span>
+                            <span className="dates">18, 19</span>
+                        </div>
+                    </div>
+                    <div className="aowCards">
+                        <span className="aowTitle">Advanced<br/>Open Water</span>
+                        <div className="details">
+                            <span className="year">2026</span>
+                            <span className="month">August</span>
+                            
+                            <span className="local">Class/Pool</span>
+                            <span className="dates">19</span>
+                            <span className="local">Check out</span>
+                            <span className="dates">22, 23</span>
+                        </div>
+                    </div>
+                    <div className="aowCards">
+                        <span className="aowTitle">Advanced<br/>Open Water</span>
+                        <div className="details">
+                            <span className="year">2026</span>
                             <span className="month">September</span>
                             
                             <span className="local">Class/Pool</span>
-                            <span className="dates">16</span>
+                            <span className="dates">23</span>
                             <span className="local">Check out</span>
                             <span className="dates">26, 27</span>
+                        </div>
+                    </div>
+                    <div className="aowCards">
+                        <span className="aowTitle">Advanced<br/>Open Water</span>
+                        <div className="details">
+                            <span className="year">2026</span>
+                            <span className="month">October</span>
+                            
+                            <span className="local">Class/Pool</span>
+                            <span className="dates">7</span>
+                            <span className="local">Check out</span>
+                            <span className="dates">10, 11</span>
                         </div>
                     </div>
                     <div className="aowCards">
@@ -71,11 +123,11 @@ For the Open Water portion, we’re not married to a single locale….we do what
                             {/* <span className="month">December</span> */}
                             
                             <span className="local">Equipment</span>
-                            <span className="dates">Dec. 10, 12, 17</span>
+                            <span className="dates">Dec. 8, 10, 15</span>
                             <span className="local">Refresher</span>
                             <span className="dates">Upon Request</span>
                             <span className="local">U/W Navigation</span>
-                            <span className="dates">Class: Sep 23,<br/>Check: Sep 27</span>
+                            <span className="dates">Class: Sep 16,<br/>Check: Sep 27</span>
                         </div>
                     </div>
                     {/* <div className="aowCards">
